@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="rootContainer">
+        <div class="title"><h1>TO DO LIST</h1></div>
+        <div class="inputField"> 
+            <input type="text" id="input_name" placeholder="Name">
+            <input type="text" id="input_task" placeholder="Task">
+             <input type="submit" id="submit" value="Add" onclick="addCell()">
+        </div>
+
+        <div id="items">
+            <div class="row">
+                <div class="cell-header">Name</div>
+                <div class="cell-header">Task</div>
+                <div class="cell-header">Priority</div>
+            </div>
+
+            <div class="row">
+                <div class="cell">123</div>
+                <div class="cell">asdasd</div>
+                <div class="cell">Descrsdddtion</div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
