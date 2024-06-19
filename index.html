@@ -10,8 +10,15 @@
     <div id="rootContainer">
         <div class="title"><h1>TO DO LIST</h1></div>
         <div class="inputField"> 
-            <input type="text" id="input_name" placeholder="Name">
-            <input type="text" id="input_task" placeholder="Task">
+            <input type="text" id="input_name" placeholder="type name..">
+            <input type="text" id="input_task" placeholder="type task...">
+            <select name="dropdown" id="priority">
+                <option value="--important-color-10">Important</option>
+                <option value="--urgent-color-10">Urgent</option>
+                <option value="--dolater-color-10">DoLater</option>
+                <option value="--avoid-color-10">Avoid</option>
+
+            </select>
              <input type="submit" id="submit" value="Add" onclick="addCell()">
         </div>
 

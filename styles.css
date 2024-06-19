@@ -1,3 +1,14 @@
+:root {
+    --important-color-10: #00BD32;
+    --important-color-20: #9FDF67;
+    --urgent-color-10: #3CB0AA;
+    --urgent-color-20: #51E9E0;
+    --dolater-color-10: #ED7D31;
+    --dolater-color-20: #FFAC20;
+    --avoid-color-10: #FF0000;
+    --avoid-color-20: #FF694E;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -46,10 +57,10 @@ body, html {
     align-items: center;
 }
 
-#input_name, #input_task{
+#input_name, #input_task, #priority{
     width: 190px;
     height: 30px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
     padding-left: 3px;
     
