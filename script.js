@@ -1,5 +1,5 @@
 // This Script creates a div element with div childs that will be appended in Task table
-//  Created on June 19, 2024
+// Created on June 19, 2024
 // Creator ChrisL
 // Version 1.0
 
@@ -24,7 +24,7 @@ function addCell(){
             divCell.style.backgroundColor = `var(${color})`;
             divRow.appendChild(divCell);
         }   
-
+        
         document.getElementById('items').appendChild(divRow);   //Appends the divRow (parent element) to the index.html
         clearInputs();  
     }
